@@ -284,72 +284,90 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15
         </div>
 
         <!-- Floating images for this section -->
-        <style>
-            .floating-image {
-                position: absolute;
-                object-fit: cover;
-                border-radius: 50%;
-                z-index: 2;
-            }
-
-            /* Default sizes for large screens */
-            .floating-image {
-                width: 100px;
-                height: 100px;
-            }
-
-            .float-top-left {
-                top: 10%;
-                left: 2%;
-            }
-
-            .float-top-right {
-                top: 10%;
-                right: 2%;
-            }
-
-            .float-bottom-left {
-                bottom: 10%;
-                left: 2%;
-            }
-
-            .float-bottom-right {
-                bottom: 10%;
-                right: 2%;
-            }
-
-            /* Adjustments for tablet screens */
-            @media (max-width: 1024px) {
-                .floating-image {
-                    width: 80px;
-                    height: 80px;
-                }
-
-                .float-top-left,
-                .float-top-right,
-                .float-bottom-left,
-                .float-bottom-right {
-                    top: 8%;
-                    bottom: 8%;
-                }
-            }
-
-            /* Adjustments for mobile screens */
-            @media (max-width: 768px) {
-                .floating-image {
-                    width: 60px;
-                    height: 60px;
-                }
-
-                .float-top-left,
-                .float-top-right,
-                .float-bottom-left,
-                .float-bottom-right {
-                    top: 5%;
-                    bottom: 5%;
-                }
-            }
-        </style>
+		<style>
+			.floating-image {
+				position: absolute;
+				object-fit: cover;
+				border-radius: 50%;
+				z-index: 2;
+			}
+		
+			/* Default sizes for large screens */
+			.floating-image {
+				width: 100px;
+				height: 100px;
+			}
+		
+			.float-top-left {
+				top: 10%;
+				left: 2%;
+			}
+		
+			.float-top-right {
+				top: 10%;
+				right: 2%;
+			}
+		
+			.float-bottom-left {
+				bottom: 10%;
+				left: 2%;
+			}
+		
+			.float-bottom-right {
+				bottom: 10%;
+				right: 2%;
+			}
+		
+			/* Adjustments for tablet screens */
+			@media (max-width: 1024px) {
+				.floating-image {
+					width: 80px;
+					height: 80px;
+				}
+		
+				.float-top-left,
+				.float-top-right,
+				.float-bottom-left,
+				.float-bottom-right {
+					top: 8%;
+					bottom: 8%;
+				}
+			}
+		
+			/* Adjustments for mobile screens */
+			@media (max-width: 768px) {
+				.floating-image {
+					width: 60px;
+					height: 60px;
+				}
+		
+				.float-top-left {
+					top: 5%;
+					left: 5%;
+				}
+		
+				.float-top-right {
+					top: 5%;
+					right: 5%;
+				}
+		
+				.float-bottom-left {
+					bottom: 5%;
+					left: 5%;
+				}
+		
+				.float-bottom-right {
+					bottom: 5%;
+					right: 5%;
+				}
+		
+				/* Add margin to prevent overlap */
+				.floating-image {
+					margin: 10px;
+				}
+			}
+		</style>
+		
 
         <!-- Floating images -->
         <img src="images/photo_1_2024-10-02_16-16-00-removebg-preview.png" class="floating-image float-top-left" alt="Floating image top-left">
@@ -458,7 +476,7 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15
 						<!-- Add more floating images -->
 						<img src="images/photo_2_2024-10-02_16-16-00-removebg-preview.png" class="floating-image float-1" alt="Floating image 1">
 						<img src="images/photo_1_2024-10-02_16-16-00-removebg-preview.png" class="floating-image float-2" alt="Floating image 2">
-						<img src="images/photo_8_2024-10-02_16-16-00-removebg-preview.png" class="floating-image float-7" alt="Floating image 7">
+						<img src="images/photo_4_2024-10-02_16-16-00-removebg-preview.png" class="floating-image float-7" alt="Floating image 7">
 					</div>
 				</div>
 			</div>
