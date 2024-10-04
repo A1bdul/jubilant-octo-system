@@ -186,75 +186,160 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15
 		
 				<!-- Floating images for the section -->
 				<style>
-					.floating-image {
-						position: absolute;
-						object-fit: cover;
-						border-radius: 50%;
-						z-index: 2;
-					}
-		
-					/* Default sizes for large screens */
-					.floating-image {
-						width: 120px;
-						height: 120px;
-					}
-		
-					.float-top-left {
-						top: 10%;
-						left: 5%;
-					}
-		
-					.float-top-right {
-						top: 10%;
-						right: 5%;
-					}
-		
-					.float-bottom-left {
-						bottom: 10%;
-						left: 5%;
-					}
-		
-					.float-bottom-right {
-						bottom: 10%;
-						right: 5%;
-					}
-		
-					/* Adjustments for tablet screens */
-					@media (max-width: 1024px) {
-						.floating-image {
-							width: 100px;
-							height: 100px;
-						}
-		
-						.float-top-left,
-						.float-top-right,
-						.float-bottom-left,
-						.float-bottom-right {
-							top: 8%;
-							bottom: 8%;
-						}
-					}
-		
-					/* Adjustments for mobile screens */
-					@media (max-width: 768px) {
-						.floating-image {
-							width: 80px;
-							height: 80px;
-						}
-		
-						.float-top-left,
-						.float-top-right,
-						.float-bottom-left,
-						.float-bottom-right {
-							top: 5%;
-							bottom: 5%;
-						}
-					}
+		Updated Floating Images CSS
+
+.floating-image {
+    position: absolute;
+    object-fit: cover;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+/* Default sizes and positions for large screens */
+.floating-image {
+    width: 200px;
+    height: 200px;
+}
+
+.float-1 {
+    left: 5%;
+    top: 5%; 
+}
+
+.float-2 {
+    right: 8%;
+    top: 15%;
+}
+
+.float-3 {
+    left: 12%;
+    bottom: 30%;
+}
+
+.float-4 {
+    left: 75%;
+    top: 45%;
+}
+
+.float-5 {
+    right: 15%;
+    bottom: 8%;
+}
+
+.float-6 {
+    left: 40%; 
+    top: 20%;
+}
+
+.float-7 {
+    right: 35%;
+    bottom: 25%;
+}
+
+.float-8 {
+    left: 55%;
+    bottom: 15%;
+}
+
+.float-9 {
+    right: 45%;
+    top: 40%;
+}
+
+.float-10 {
+    left: 25%;
+    top: 35%;
+}
+
+/* New floating images */
+.float-11 {
+    left: 8%;
+    top: 60%;
+}
+
+.float-12 {
+    right: 22%;
+    top: 65%;
+}
+
+.float-13 {
+    left: 85%;
+    bottom: 45%;
+}
+
+.float-14 {
+    left: 30%;
+    bottom: 50%;
+}
+
+.float-15 {
+    right: 28%;
+    bottom: 55%;
+}
+
+/* Adjustments for tablet screens */
+@media (max-width: 1024px) {
+    .floating-image {
+        width: 160px;
+        height: 160px;
+    }
+
+    /* Original positions... */
+    .float-1 { left: 5%; top: 8%; }
+    .float-2 { right: 10%; top: 20%; }
+    .float-3 { left: 15%; bottom: 25%; }
+    .float-4 { left: 70%; top: 40%; }
+    .float-5 { right: 12%; bottom: 10%; }
+    .float-6 { left: 35%; top: 15%; }
+    .float-7 { right: 30%; bottom: 20%; }
+    .float-8 { left: 50%; bottom: 12%; }
+    .float-9 { right: 40%; top: 35%; }
+    .float-10 { left: 20%; top: 30%; }
+
+    /* New positions for tablet */
+    .float-11 { left: 10%; top: 55%; }
+    .float-12 { right: 25%; top: 60%; }
+    .float-13 { left: 80%; bottom: 40%; }
+    .float-14 { left: 25%; bottom: 45%; }
+    .float-15 { right: 32%; bottom: 50%; }
+}
+
+/* Adjustments for mobile screens */
+@media (max-width: 768px) {
+    .floating-image {
+        width: 100px;
+        height: 100px;
+    }
+
+    /* Original positions... */
+    .float-1 { left: 8%; top: 5%; }
+    .float-2 { right: 12%; top: 25%; }
+    .float-3 { left: 18%; bottom: 20%; }
+    .float-4 { left: 65%; top: 35%; }
+    .float-5 { right: 15%; bottom: 15%; }
+    .float-6 { left: 30%; top: 12%; }
+    .float-7 { right: 25%; bottom: 18%; }
+    .float-8 { left: 45%; bottom: 10%; }
+    .float-9 { right: 35%; top: 30%; }
+    .float-10 { left: 15%; top: 25%; }
+
+    /* New positions for mobile */
+    .float-11 { left: 12%; top: 50%; }
+    .float-12 { right: 18%; top: 55%; }
+    .float-13 { left: 75%; bottom: 35%; }
+    .float-14 { left: 20%; bottom: 40%; }
+    .float-15 { right: 28%; bottom: 45%; }
+}
 				</style>
 		
 				<!-- Floating images -->
 				<img src="images/photo_1_2024-10-02_16-16-00-removebg-preview.png" class="floating-image float-top-left" alt="Floating image top-left">
 				<img src="images/photo_2_2024-10-02_16-16-00-removebg-preview.png" class="floating-image float-top-right" alt="Floating image top-right">
+				<!-- Add these new floating images -->
+<img src="images/photo_7_2024-10-02_16-16-00-removebg-preview-225x300.png" class="floating-image float-11" alt="Floating image 11">
+<img src="images/photo_4_2024-10-02_16-16-00-removebg-preview-225x300.png" class="floating-image float-12" alt="Floating image 12">
+
+<img src="images/photo_8_2024-10-02_16-16-00-removebg-preview.png" class="floating-image float-14" alt="Floating image 14">
 			</div>
 		</section>
 		<section class="elementor-section elementor-top-section elementor-element elementor-element-6e5dbcc0 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="6e5dbcc0" data-element_type="section" data-settings="{'background_background':'classic'}">
