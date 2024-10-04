@@ -343,124 +343,149 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15
 			</div>
 		</section>
 		<section class="elementor-section elementor-top-section elementor-element elementor-element-6e5dbcc0 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="6e5dbcc0" data-element_type="section" data-settings="{'background_background':'classic'}">
-    <div class="elementor-container elementor-column-gap-no">
-        <div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-30f755ae" data-id="30f755ae" data-element_type="column">
-            <div class="elementor-widget-wrap"></div>
-        </div>
-
-        <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-77878c45" data-id="77878c45" data-element_type="column">
-            <div class="elementor-widget-wrap elementor-element-populated">
-                <div class="elementor-element elementor-element-3a15561 elementor-widget elementor-widget-text-editor" data-id="3a15561" data-element_type="widget">
-                    <div class="elementor-widget-container">
-                        <p>Fans of laughter and camaraderie eagerly collect Xiuxiu tokens, turning them into delightful treasures. It’s like having your own adorable meme companion, forging connections with fellow enthusiasts who share your passions!</p>
-                    </div>
-                </div>
-
-                <div class="elementor-element elementor-element-ec32a09 elementor-widget elementor-widget-image" data-id="ec32a09" data-element_type="widget">
-                    <div class="elementor-widget-container">
-                        <img loading="lazy" decoding="async" width="720" height="1280" src="images/photo_2_2024-10-02_16-16-00.jpg" class="attachment-full size-full wp-image-55" alt="">
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-6cc32dc" data-id="6cc32dc" data-element_type="column">
-            <div class="elementor-widget-wrap"></div>
-        </div>
-
-        <!-- Floating images for this section -->
-		<style>
-			.floating-image {
-				position: absolute;
-				object-fit: cover;
-				border-radius: 50%;
-				z-index: 2;
-			}
+			<div class="elementor-container elementor-column-gap-no">
+				<div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-30f755ae" data-id="30f755ae" data-element_type="column">
+					<div class="elementor-widget-wrap"></div>
+				</div>
 		
-			/* Default sizes for large screens */
-			.floating-image {
-				width: 100px;
-				height: 100px;
-			}
+				<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-77878c45" data-id="77878c45" data-element_type="column">
+					<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-3a15561 elementor-widget elementor-widget-text-editor" data-id="3a15561" data-element_type="widget">
+							<div class="elementor-widget-container">
+								<p>Fans of laughter and camaraderie eagerly collect Xiuxiu tokens, turning them into delightful treasures. It’s like having your own adorable meme companion, forging connections with fellow enthusiasts who share your passions!</p>
+							</div>
+						</div>
 		
-			.float-top-left {
-				top: 10%;
-				left: 2%;
-			}
+						<div class="elementor-element elementor-element-ec32a09 elementor-widget elementor-widget-image" data-id="ec32a09" data-element_type="widget">
+							<div class="elementor-widget-container">
+								<img loading="lazy" decoding="async" width="720" height="1280" src="images/photo_2_2024-10-02_16-16-00.jpg" class="attachment-full size-full wp-image-55" alt="">
+							</div>
+						</div>
+					</div>
+				</div>
 		
-			.float-top-right {
-				top: 10%;
-				right: 2%;
-			}
+				<div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-6cc32dc" data-id="6cc32dc" data-element_type="column">
+					<div class="elementor-widget-wrap"></div>
+				</div>
 		
-			.float-bottom-left {
-				bottom: 10%;
-				left: 2%;
-			}
+				<!-- Floating images for this section -->
+				<style>
+					.floating-image {
+						position: absolute;
+						object-fit: cover;
+						border-radius: 50%;
+						z-index: 2;
+					}
 		
-			.float-bottom-right {
-				bottom: 10%;
-				right: 2%;
-			}
+					/* Default sizes for large screens */
+					.floating-image {
+						width: 100px;
+						height: 100px;
+					}
 		
-			/* Adjustments for tablet screens */
-			@media (max-width: 1024px) {
-				.floating-image {
-					width: 80px;
-					height: 80px;
-				}
+					.float-top-left {
+						top: 10%;
+						left: 2%;
+					}
 		
-				.float-top-left,
-				.float-top-right,
-				.float-bottom-left,
-				.float-bottom-right {
-					top: 8%;
-					bottom: 8%;
-				}
-			}
+					.float-top-right {
+						top: 10%;
+						right: 2%;
+					}
 		
-			/* Adjustments for mobile screens */
-			@media (max-width: 768px) {
-				.floating-image {
-					width: 60px;
-					height: 60px;
-				}
+					.float-bottom-left {
+						bottom: 10%;
+						left: 2%;
+					}
 		
-				.float-top-left {
-					top: 5%;
-					left: 5%;
-				}
+					.float-bottom-right {
+						bottom: 10%;
+						right: 2%;
+					}
 		
-				.float-top-right {
-					top: 5%;
-					right: 5%;
-				}
+					/* New positions */
+					.float-middle-left {
+						top: 50%;
+						left: 5%;
+						transform: translateY(-50%);
+					}
 		
-				.float-bottom-left {
-					bottom: 5%;
-					left: 5%;
-				}
+					.float-middle-right {
+						top: 50%;
+						right: 5%;
+						transform: translateY(-50%);
+					}
 		
-				.float-bottom-right {
-					bottom: 5%;
-					right: 5%;
-				}
+					/* Adjustments for tablet screens */
+					@media (max-width: 1024px) {
+						.floating-image {
+							width: 80px;
+							height: 80px;
+						}
 		
-				/* Add margin to prevent overlap */
-				.floating-image {
-					margin: 10px;
-				}
-			}
-		</style>
+						.float-top-left,
+						.float-top-right,
+						.float-bottom-left,
+						.float-bottom-right {
+							top: 8%;
+							bottom: 8%;
+						}
+					}
 		
-
-        <!-- Floating images -->
-        <img src="images/photo_1_2024-10-02_16-16-00-removebg-preview.png" class="floating-image float-top-left" alt="Floating image top-left">
-        <img src="images/photo_2_2024-10-02_16-16-00-removebg-preview.png" class="floating-image float-top-right" alt="Floating image top-right">
-        <img src="images/photo_3_2024-10-02_16-16-00-removebg-preview-e1727907869198.png" class="floating-image float-bottom-left" alt="Floating image bottom-left">
-        <img src="images/photo_8_2024-10-02_16-16-00-removebg-preview.png" class="floating-image float-bottom-right" alt="Floating image bottom-right">
-    </div>
-</section>
+					/* Adjustments for mobile screens */
+					@media (max-width: 768px) {
+						.floating-image {
+							width: 60px;
+							height: 60px;
+						}
+		
+						.float-top-left {
+							top: 5%;
+							left: 5%;
+						}
+		
+						.float-top-right {
+							top: 5%;
+							right: 5%;
+						}
+		
+						.float-bottom-left {
+							bottom: 5%;
+							left: 5%;
+						}
+		
+						.float-bottom-right {
+							bottom: 5%;
+							right: 5%;
+						}
+		
+						.float-middle-left {
+							left: 3%;
+							top: 40%;
+						}
+		
+						.float-middle-right {
+							right: 3%;
+							top: 40%;
+						}
+		
+						/* Add margin to prevent overlap */
+						.floating-image {
+							margin: 10px;
+						}
+					}
+				</style>
+		
+				<!-- Floating images -->
+				<img src="images/photo_1_2024-10-02_16-16-00-removebg-preview.png" class="floating-image float-top-left" alt="Floating image top-left">
+				<img src="images/photo_2_2024-10-02_16-16-00-removebg-preview.png" class="floating-image float-top-right" alt="Floating image top-right">
+				<img src="images/photo_3_2024-10-02_16-16-00-removebg-preview-e1727907869198.png" class="floating-image float-bottom-left" alt="Floating image bottom-left">
+				<img src="images/photo_8_2024-10-02_16-16-00-removebg-preview.png" class="floating-image float-bottom-right" alt="Floating image bottom-right">
+				<!-- New floating images -->
+				<img src="images/photo_4_2024-10-02_16-16-00-removebg-preview.png" class="floating-image float-middle-left" alt="Floating image middle-left">
+			</div>
+		</section>
+		
 
 		<section class="elementor-section elementor-top-section elementor-element elementor-element-35be7d0a elementor-reverse-mobile elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="35be7d0a" data-element_type="section" data-settings='{"background_background":"classic","shape_divider_top":"waves"}'>
 			<div class="elementor-background-overlay"></div>
